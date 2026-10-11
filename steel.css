@@ -1,0 +1,98 @@
+:root {
+  --bg:#0a0c0e; --text:#e4e8ec; --dim:#949ca4; --faint:#6c747c;
+  --amber:#e8a33a; --amber-soft:#f2c471;
+  --steel-lit:#c9d0d6; --steel-mid:#7b838b; --steel-edge:#12151a;
+  --frame:url("assets/steel_frame.webp") 48 54 50 54 fill;
+  --field:url("assets/steel_field.webp");
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background:var(--bg); color:var(--text);
+  font-family:'Inter',sans-serif; line-height:1.65;
+}
+
+h1, h2, h3 { font-family:'Saira Semi Condensed',sans-serif; text-transform:uppercase; letter-spacing:.03em; }
+
+a { color:var(--amber); text-decoration:none; }
+
+.wrap { max-width:1120px; margin:0 auto; padding:0 22px; }
+
+.steel-text {
+  font-family:'Saira Stencil One',sans-serif; font-weight:400; letter-spacing:.07em;
+  background:linear-gradient(180deg, #f2f5f8 0%, #b4bcc3 32%, #666e76 64%, #cbd2d8 100%);
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  filter:drop-shadow(0 2px 0 rgba(0,0,0,.75));
+}
+
+.plate {
+  position:relative; display:inline-block; max-width:100%;
+  padding:9px clamp(18px,5vw,36px);
+  border-style:solid; border-width:19px 22px 20px 22px;
+  border-image:var(--frame);
+  border-image-repeat:round;
+  filter:drop-shadow(0 12px 22px rgba(0,0,0,.55));
+}
+.plate span {
+  display:block;
+  font-family:'Saira Extra Condensed','Saira Semi Condensed',sans-serif; font-weight:800;
+  font-size:clamp(17px,2.6vw,24px); letter-spacing:.14em; text-transform:uppercase;
+  background:linear-gradient(180deg,#ffe7a6 0%,#f2b544 45%,#b8761f 70%,#ffcf6a 100%);
+  -webkit-background-clip:text; background-clip:text; color:transparent; text-shadow:none;
+  filter:drop-shadow(0 2px 0 rgba(0,0,0,.9)) drop-shadow(0 0 10px rgba(240,170,60,.25));
+}
+.plate.small { padding:6px clamp(14px,3.5vw,24px); border-width:15px 17px 16px 17px; }
+.plate.small span { font-size:clamp(14px,1.9vw,17px); letter-spacing:.14em; }
+
+.frame {
+  position:relative; padding:0;
+  border-style:solid; border-width:15px 17px 16px 17px;
+  border-image:var(--frame);
+  border-image-repeat:round;
+  filter:drop-shadow(0 12px 22px rgba(0,0,0,.5));
+}
+.frame img, .frame video {
+  width:100%; height:auto; display:block; background:#05070a;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.7);
+}
+
+.card {
+  border-style:solid; border-width:15px 17px 16px 17px;
+  border-image:var(--frame);
+  border-image-repeat:round;
+  padding:6px 8px 10px;
+  filter:drop-shadow(0 10px 20px rgba(0,0,0,.45));
+}
+.card h3 {
+  font-family:'Saira Extra Condensed','Saira Semi Condensed',sans-serif; font-weight:800;
+  font-size:18px; letter-spacing:.11em; margin-bottom:9px; text-transform:uppercase; display:inline-block;
+  background:linear-gradient(180deg,#ffe7a6 0%,#f2b544 45%,#b8761f 70%,#ffcf6a 100%);
+  -webkit-background-clip:text; background-clip:text; color:transparent; text-shadow:none;
+  filter:drop-shadow(0 2px 0 rgba(0,0,0,.9)) drop-shadow(0 0 10px rgba(240,170,60,.25));
+}
+.card p, .card li { color:var(--dim); font-size:14.5px; }
+.card ul { list-style:none; }
+.card li { margin:5px 0; }
+.card li::before { content:"›"; color:var(--steel-mid); margin-right:8px; }
+
+.steel-button {
+  display:inline-block; max-width:100%;
+  border-style:solid; border-width:17px 19px 18px 19px;
+  border-image:var(--frame);
+  border-image-repeat:round;
+  padding:9px clamp(14px,3.5vw,26px); text-align:center;
+  font-family:'Saira Extra Condensed','Saira Semi Condensed',sans-serif; font-weight:800;
+  font-size:clamp(16px,3.6vw,21px); letter-spacing:.14em; text-transform:uppercase;
+  color:var(--amber-soft);
+  text-shadow:0 1px 0 rgba(0,0,0,.85), 0 0 20px rgba(232,163,58,.35);
+  filter:drop-shadow(0 14px 26px rgba(0,0,0,.55));
+}
+.steel-button small {
+  display:block; margin-top:4px;
+  font-family:'Inter',sans-serif; font-weight:600; font-size:11px;
+  letter-spacing:.02em; text-transform:none; color:var(--dim); text-shadow:none;
+}
+.steel-button .gold { display:inline-block; background:linear-gradient(180deg,#ffe7a6 0%,#f2b544 45%,#b8761f 70%,#ffcf6a 100%);   -webkit-background-clip:text; background-clip:text; color:transparent; text-shadow:none;   filter:drop-shadow(0 2px 0 rgba(0,0,0,.9)) drop-shadow(0 0 10px rgba(240,170,60,.25)); }
+.steel-button:hover { color:#ffd68f; filter:drop-shadow(0 14px 26px rgba(0,0,0,.55)) brightness(1.08); }
+.steel-button.plain { text-transform:none; letter-spacing:.06em; font-size:clamp(13px,3vw,16px); }
