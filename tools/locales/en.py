@@ -200,7 +200,7 @@ T = {
              '<p><span class="tag-new">1.3.3</span> The lobby also opens from Apple\'s Games app: Steelhold › Play Together › Play.</p>'),
             ("pt-find", "Our devices do not find each other",
              "<ul>"
-             "<li>Wi-Fi is switched on on both devices. They can share a Wi-Fi network or have none at all.</li>"
+             "<li>Both devices have Wi-Fi switched on. They can share a Wi-Fi network or have none at all.</li>"
              "<li>Local Network access is on for Steelhold: on iPhone and iPad in Settings › Privacy &amp; Security › Local Network, on a Mac in System Settings › Privacy &amp; Security › Local Network.</li>"
              "<li>Both devices run the latest version of the game.</li>"
              "<li>The devices are close together, in the same room.</li>"

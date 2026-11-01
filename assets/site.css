@@ -347,7 +347,9 @@ figcaption { margin-top:12px; color:var(--faint); font-size:14px; text-align:cen
 .press-head img { width:96px; height:96px; border-radius:22px; box-shadow:0 0 0 1px rgba(255,255,255,.1), 0 16px 40px rgba(0,0,0,.6); }
 @media (min-width:700px){ .press-head { grid-template-columns:auto 1fr; gap:28px; } .press-head img { width:128px; height:128px; border-radius:29px; } }
 .dl-row { display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
-.dl-row .btn small { font:600 12px/1 var(--body); letter-spacing:0; text-transform:none; opacity:.8; }
+.dl-row .btn { text-align:left; }
+.dl-row .two { display:flex; flex-direction:column; gap:3px; }
+.dl-row .btn small { font:600 12px/1.1 var(--body); letter-spacing:0; text-transform:none; opacity:.8; }
 .facts { margin:0; display:grid; border-radius:18px; overflow:hidden; box-shadow:inset 0 0 0 1px var(--line); background:var(--panel); }
 .facts > div { padding:14px 18px; border-top:1px solid var(--line); display:grid; gap:2px; }
 .facts > div:first-child { border-top:0; }
@@ -385,6 +387,7 @@ figcaption { margin-top:12px; color:var(--faint); font-size:14px; text-align:cen
 :lang(ja) .display, :lang(ko) .display { font-size:clamp(28px, 6.4vw, 50px); }
 :lang(ja) .kicker, :lang(ko) .kicker, :lang(ja) .chips li, :lang(ko) .chips li, :lang(ja) .stats span, :lang(ko) .stats span { letter-spacing:.08em; }
 :lang(ja) body, :lang(ko) body { line-height:1.75; }
+:lang(ja) .faq-group > h2, :lang(ko) .faq-group > h2, :lang(ja) .plan .label, :lang(ko) .plan .label, :lang(ja) .updated, :lang(ko) .updated { letter-spacing:.08em; }
 :lang(ko) p, :lang(ko) li, :lang(ko) summary { word-break:keep-all; }
 :lang(ja) .qa summary, :lang(ko) .qa summary, :lang(ja) .quick a, :lang(ko) .quick a { font-family:var(--head), var(--body); letter-spacing:0; }
 
@@ -402,6 +405,10 @@ figcaption { margin-top:12px; color:var(--faint); font-size:14px; text-align:cen
 @media (min-width:900px){
   .hero { padding:64px 0 24px; }
   .hero-grid { grid-template-columns:1.02fr 1fr; gap:40px; }
+  .title .word { font-size:clamp(64px, 7.6vw, 112px); }
+  .hero .phones .main { --w:min(21vw, 290px); }
+  .hero .phones .side { --w:min(16.5vw, 230px); }
+  .hero .phones .phone + .phone { margin-left:calc(var(--w) * -0.34); }
   .phones { padding:20px 0 40px; }
 }
 @media print {

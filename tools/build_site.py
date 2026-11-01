@@ -195,8 +195,8 @@ def lang_note(t, code):
 
 # ---------------------------------------------------------------- index
 def page_index(t, code, r):
-    side = "(min-width: 900px) 230px, 36vw"
-    main = "(min-width: 900px) 290px, 46vw"
+    side = "(min-width: 900px) 17vw, 33vw"
+    main = "(min-width: 900px) 21vw, 45vw"
     pair = "(min-width: 900px) 270px, 44vw"
     ld = {
         "@context": "https://schema.org", "@type": "SoftwareApplication",
@@ -464,9 +464,9 @@ def page_press(t, r=""):
     </div>
   </div>
   <div class="dl-row">
-    <a class="btn btn-gold" href="assets/press/steelhold-press-kit.zip" download>{ICON_DL}<span>{t['ps_dl_zip']} <small>ZIP · {zip_mb:.0f} MB</small></span></a>
-    <a class="btn btn-ghost" href="assets/press/steelhold-icon-1024.png" download>{t['ps_dl_icon']} <small>PNG</small></a>
-    <a class="btn btn-ghost" href="assets/video/steelhold-trailer-iphone.mp4" download>{t['ps_dl_video']} <small>MP4 · 4 MB</small></a>
+    <a class="btn btn-gold" href="assets/press/steelhold-press-kit.zip" download>{ICON_DL}<span class="two"><b>{t['ps_dl_zip']}</b><small>ZIP · {zip_mb:.0f} MB</small></span></a>
+    <a class="btn btn-ghost" href="assets/press/steelhold-icon-1024.png" download><span class="two"><b>{t['ps_dl_icon']}</b><small>PNG · 1024 × 1024</small></span></a>
+    <a class="btn btn-ghost" href="assets/video/steelhold-trailer-iphone.mp4" download><span class="two"><b>{t['ps_dl_video']}</b><small>MP4 · 20 s · 4 MB</small></span></a>
   </div>
 </div>
 
@@ -518,7 +518,11 @@ def main():
         outdir = ROOT / folder
         outdir.mkdir(exist_ok=True)
         for page, fn in (("index", page_index), ("support", page_support), ("privacy", page_privacy)):
-            (outdir / f"{page}.html").write_text(fn(t, code, r), encoding="utf-8")
+            out = fn(t, code, r)
+            if code == "fr":  # French typography: no line break before : ? ! ;
+                for ch in ":?!;":
+                    out = out.replace(f" {ch}", f"&nbsp;{ch}")
+            (outdir / f"{page}.html").write_text(out, encoding="utf-8")
             written.append(f"{folder}{page}.html")
     (ROOT / "press.html").write_text(page_press(en), encoding="utf-8")
     written.append("press.html")
