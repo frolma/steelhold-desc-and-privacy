@@ -88,7 +88,7 @@ T = {
     "pr_free_label": "Téléchargement gratuit",
     "pr_free_title": "Essayer",
     "pr_free_items": [
-        "Les 8 premières missions de Steel Crusade, vrais combats de boss compris",
+        "Les premières missions de Steel Crusade, vrais combats de boss compris",
         "Rejoindre la partie Play Together d'un ami",
         """Héberger un essai coopératif de cinq vagues <span class="tag-new">1.3.3</span>""",
     ],
@@ -119,7 +119,7 @@ T = {
     ],
     "pv_link": "Politique de confidentialité",
     "cta_title": """Tenez <span class="g">bon.</span>""",
-    "cta_text": "Téléchargement gratuit. Les 8 premières missions sont gratuites.",
+    "cta_text": "Téléchargement gratuit. Jouez aux premières missions avant de payer quoi que ce soit.",
 
     "alt_defend": "Capture iPhone : votre tank tire depuis la porte d'une forteresse de pierre pendant que les tanks ennemis approchent. Texte : Defend your base",
     "alt_ipad_defend": "Capture iPad : votre tank défend la porte de la forteresse dans une ville fortifiée du désert. Texte : Defend your base",
@@ -156,7 +156,7 @@ T = {
             ("redeem", "J'ai un code promotionnel",
              """<p><span class="tag-new">1.3.3</span> Touchez [[REDEEM CODE]] à côté de [[RESTORE PURCHASES]] sur l'écran [[FULL VERSION]]. La fenêtre d'Apple pour les codes s'ouvre, et un code Full Version débloque le jeu exactement comme l'achat.</p>"""),
             ("free", "Comment fonctionne la partie gratuite ?",
-             "<p>Les 8 premières missions de Steel Crusade sont gratuites : de vraies missions avec de vrais combats de boss, qui vous rapportent vos premières récompenses de niveau. Un seul achat débloque la Full Version : Steel Crusade après les missions gratuites, Iron Labyrinth et INFERNO dès leur première mission, Endless Onslaught, la difficulté Hard et les vitesses de jeu Slow, Fast et Turbo. Sans pub, sans abonnement.</p>"
+             "<p>Les premières missions de Steel Crusade sont gratuites : de vraies missions avec de vrais combats de boss, qui vous rapportent vos premières récompenses de niveau. Un seul achat débloque la Full Version : Steel Crusade après les missions gratuites, Iron Labyrinth et INFERNO dès leur première mission, Endless Onslaught, la difficulté Hard et les vitesses de jeu Slow, Fast et Turbo. Sans pub, sans abonnement.</p>"
              """<p>Dans [[PLAY TOGETHER]], votre ami vous rejoint toujours gratuitement. <span class="tag-new">1.3.3</span> Un joueur sans la Full Version peut héberger un essai de cinq vagues.</p>"""),
             ("refund", "Je veux un remboursement",
              """<p>Les achats sont gérés par Apple, les remboursements passent donc par Apple : <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Apple répond en général sous un ou deux jours.</p>"""),

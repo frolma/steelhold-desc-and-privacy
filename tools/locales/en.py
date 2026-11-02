@@ -98,7 +98,7 @@ T = {
     "pr_free_label": "Free download",
     "pr_free_title": "Try it",
     "pr_free_items": [
-        "The first 8 missions of Steel Crusade, real boss fights included",
+        "The opening missions of Steel Crusade, real boss fights included",
         "Join a friend's Play Together battle",
         'Host a five-wave co-op trial <span class="tag-new">1.3.3</span>',
     ],
@@ -132,7 +132,7 @@ T = {
     "pv_link": "Privacy policy",
 
     "cta_title": 'Hold <span class="g">the line.</span>',
-    "cta_text": "Free to download. The first 8 missions are free.",
+    "cta_text": "Free to download. Play the opening missions before you pay anything.",
 
     "alt_defend": "iPhone screenshot: your tank fires from the gate of a stone fortress as enemy tanks close in. Caption: Defend your base",
     "alt_ipad_defend": "iPad screenshot: your tank defends the fortress gate in a walled desert city. Caption: Defend your base",
@@ -170,7 +170,7 @@ T = {
             ("redeem", "I have an offer code",
              '<p><span class="tag-new">1.3.3</span> Tap [[REDEEM CODE]] beside [[RESTORE PURCHASES]] on the [[FULL VERSION]] screen. Apple\'s offer code sheet opens, and a Full Version code unlocks the game exactly as the purchase does.</p>'),
             ("free", "How does the free part work?",
-             "<p>The first 8 missions of Steel Crusade are free: full missions with real boss fights, and they pay out your first level rewards. One purchase opens the Full Version: Steel Crusade past the free missions, Iron Labyrinth and INFERNO from their first mission, Endless Onslaught, the Hard difficulty and the Slow, Fast and Turbo game speeds. NO ADS, no subscriptions.</p>"
+             "<p>The opening missions of Steel Crusade are free: full missions with real boss fights, and they pay out your first level rewards. One purchase opens the Full Version: Steel Crusade past the free missions, Iron Labyrinth and INFERNO from their first mission, Endless Onslaught, the Hard difficulty and the Slow, Fast and Turbo game speeds. NO ADS, no subscriptions.</p>"
              '<p>In [[PLAY TOGETHER]] your friend always joins free. <span class="tag-new">1.3.3</span> A player without the Full Version can host a five-wave trial.</p>'),
             ("refund", "I want a refund",
              '<p>Purchases are processed by Apple, so refunds go through them: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Apple usually answers within a day or two.</p>'),
@@ -273,7 +273,7 @@ T = {
         ("Developer", "Maxim Frolov, a one-person studio"),
         ("Platforms", "iPhone, iPhone Duo and iPad (iOS 17 and later), Mac with Apple silicon"),
         ("Genre", "Top-down arcade tank battle, base defense"),
-        ("Price", "Free to download. The first 8 missions are free; one purchase opens the Full Version: all three campaigns, the endless mode and the Hard difficulty. Tips are optional. In PLAY TOGETHER the friend joins free, and a player without the Full Version can host a five-wave trial. NO ADS, no subscriptions"),
+        ("Price", "Free to download. The opening missions of Steel Crusade are free; one purchase opens the Full Version: all three campaigns, the endless mode and the Hard difficulty. Tips are optional. In PLAY TOGETHER the friend joins free, and a player without the Full Version can host a five-wave trial. NO ADS, no subscriptions"),
         ("Content", "Three campaigns (Steel Crusade, Iron Labyrinth, INFERNO) with 140 missions and 19 boss fights, an endless mode, PLAY TOGETHER local co-op, medals and Game Center leaderboards"),
         ("Offline", "Plays OFFLINE: every mission and every mode, co-op too (Wi-Fi switched on, no internet needed). Game Center, iCloud sync, purchases and restores need a connection"),
         ("Privacy", "Data Not Collected. No account, no ad networks, no analytics"),
@@ -296,13 +296,13 @@ T = {
         "Real fog of war in night missions: you hunt by the light of your own gun",
         "Giant boss fights against bosses that hunt in different ways, and real boss fights inside the free part",
         "A hangar and a commander level whose rewards are earned in battle, not sold on their own",
-        "First 8 missions free, one purchase opens the Full Version, NO ADS, no subscriptions, and it plays OFFLINE",
+        "Opening missions free, one purchase opens the Full Version, NO ADS, no subscriptions, and it plays OFFLINE",
         "Written from scratch in Swift with SpriteKit, no third-party engine",
     ],
     "ps_text_title": "Ready to paste",
     "ps_short_title": "Short description",
     "ps_short": [
-        "The classic top-down tank war, rebuilt with love for iPhone, iPhone Duo, iPad and Mac. Three hand-built campaigns and an endless mode, giant boss fights and night missions under real fog of war, with a hangar and a commander level that pays out reward after reward. The first 8 missions are free, and one purchase opens the Full Version. Two devices side by side can also play together with no internet. NO ADS, no subscriptions, and it plays OFFLINE: on a plane, in the metro, anywhere the signal drops.",
+        "The classic top-down tank war, rebuilt with love for iPhone, iPhone Duo, iPad and Mac. Three hand-built campaigns and an endless mode, giant boss fights and night missions under real fog of war, with a hangar and a commander level that pays out reward after reward. The opening missions are free, and one purchase opens the Full Version. Two devices side by side can also play together with no internet. NO ADS, no subscriptions, and it plays OFFLINE: on a plane, in the metro, anywhere the signal drops.",
     ],
     "ps_together_title": "Play Together",
     "ps_together": [
@@ -316,7 +316,7 @@ T = {
         "A hangar dresses your tank with hulls, paint, glow, tracer rounds, muzzle flash, tread dust and emblems, and nothing in it is sold on its own. A commander level climbs with every mission cleared for the first time and pays out rewards all the way: new abilities, better hardware and promotions up to Marshal. Every boss beaten hangs a plate on a trophy wall, and orders earned in the campaigns make Endless runs harder and their scores bigger.",
         "Two can hold the line. In PLAY TOGETHER an iPhone, iPad or Mac links directly to the one beside it over Wi-Fi, with no internet, no server and no account, and two players defend one base on shared lives through the Endless arenas. A heart crate brings a fallen partner back. The friend joins free, and a player without the Full Version can host a five-wave trial.",
         "Every fight ends with a war dossier and a tank-by-tank tally, and any victory can be shared as a card. Progress lives on the device and in the player's own private iCloud, never on a developer server. Leaderboards and medals run through Apple's Game Center. Touch, a game controller and a keyboard all work, and several players can share one device.",
-        "The business model is simple. The first 8 missions are free and include real boss fights. One purchase opens the Full Version: all three campaigns, the endless mode and the Hard difficulty. Tips are optional and do not change how the game plays. NO ADS, no subscriptions, no energy timers. It plays OFFLINE: on a plane, in the metro, anywhere the signal drops. Game Center, iCloud sync, purchases and restores need a connection.",
+        "The business model is simple. The opening missions are free and include real boss fights. One purchase opens the Full Version: all three campaigns, the endless mode and the Hard difficulty. Tips are optional and do not change how the game plays. NO ADS, no subscriptions, no energy timers. It plays OFFLINE: on a plane, in the metro, anywhere the signal drops. Game Center, iCloud sync, purchases and restores need a connection.",
     ],
     "ps_shots_title": "Screenshots",
     "ps_shots_note": "The App Store screenshots of version 1.3.3, as JPEG at full size. Tap a picture to open it.",

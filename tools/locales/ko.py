@@ -88,7 +88,7 @@ T = {
     "pr_free_label": "무료 다운로드",
     "pr_free_title": "체험",
     "pr_free_items": [
-        "Steel Crusade의 처음 8개 미션, 진짜 보스전 포함",
+        "Steel Crusade의 초반 미션, 진짜 보스전 포함",
         "친구의 Play Together 전투에 참가",
         '5웨이브 협동 체험 호스트 <span class="tag-new">1.3.3</span>',
     ],
@@ -119,7 +119,7 @@ T = {
     ],
     "pv_link": "개인정보 처리방침",
     "cta_title": '방어선을 <span class="g">지켜라.</span>',
-    "cta_text": "무료 다운로드. 처음 8개 미션은 무료입니다.",
+    "cta_text": "무료 다운로드. 초반 미션은 구매 전에 무료로 플레이할 수 있습니다.",
 
     "alt_defend": "iPhone 스크린샷: 적 탱크가 다가오는 가운데 돌 요새의 문에서 사격하는 내 탱크. 문구: Defend your base",
     "alt_ipad_defend": "iPad 스크린샷: 성벽으로 둘러싸인 사막 도시에서 요새 문을 지키는 내 탱크. 문구: Defend your base",
@@ -156,7 +156,7 @@ T = {
             ("redeem", "오퍼 코드가 있어요",
              '<p><span class="tag-new">1.3.3</span> [[FULL VERSION]] 화면에서 [[RESTORE PURCHASES]] 옆의 [[REDEEM CODE]]를 탭하세요. Apple의 오퍼 코드 입력 화면이 열리고, 정식판 코드는 구매와 똑같이 게임을 엽니다.</p>'),
             ("free", "무료 부분은 어떻게 되나요?",
-             "<p>Steel Crusade의 처음 8개 미션은 무료입니다. 진짜 보스전이 들어간 온전한 미션이며, 첫 레벨 보상도 받습니다. 한 번 구매하면 정식판이 열립니다: 무료 미션 이후의 Steel Crusade, 첫 미션부터의 Iron Labyrinth와 INFERNO, Endless Onslaught, Hard 난이도, 그리고 Slow, Fast, Turbo 게임 속도. 광고 없음, 구독 없음.</p>"
+             "<p>Steel Crusade의 초반 미션은 무료입니다. 진짜 보스전이 들어간 온전한 미션이며, 첫 레벨 보상도 받습니다. 한 번 구매하면 정식판이 열립니다: 무료 미션 이후의 Steel Crusade, 첫 미션부터의 Iron Labyrinth와 INFERNO, Endless Onslaught, Hard 난이도, 그리고 Slow, Fast, Turbo 게임 속도. 광고 없음, 구독 없음.</p>"
              '<p>[[PLAY TOGETHER]]에서는 친구가 언제나 무료로 참가합니다. <span class="tag-new">1.3.3</span> 정식판이 없는 플레이어도 5웨이브 체험을 호스트할 수 있습니다.</p>'),
             ("refund", "환불받고 싶어요",
              '<p>구매는 Apple이 처리하므로 환불도 Apple을 통해 요청합니다: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. 보통 하루이틀 안에 답이 옵니다.</p>'),

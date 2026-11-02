@@ -88,7 +88,7 @@ T = {
     "pr_free_label": "無料ダウンロード",
     "pr_free_title": "お試し",
     "pr_free_items": [
-        "Steel Crusadeの最初の8ミッション（本物のボス戦つき）",
+        "Steel Crusadeの序盤ミッション（本物のボス戦つき）",
         "友だちのPlay Togetherバトルに参加",
         '5ウェーブの協力プレイ体験をホスト <span class="tag-new">1.3.3</span>',
     ],
@@ -119,7 +119,7 @@ T = {
     ],
     "pv_link": "プライバシーポリシー",
     "cta_title": '防衛線を<span class="g">守り抜け。</span>',
-    "cta_text": "ダウンロード無料。最初の8ミッションは無料です。",
+    "cta_text": "ダウンロード無料。序盤のミッションは、購入前に無料で遊べます。",
 
     "alt_defend": "iPhoneのスクリーンショット：敵の戦車が迫る中、石の要塞の門から撃つ自分の戦車。文字：Defend your base",
     "alt_ipad_defend": "iPadのスクリーンショット：城壁に囲まれた砂漠の街で要塞の門を守る自分の戦車。文字：Defend your base",
@@ -156,7 +156,7 @@ T = {
             ("redeem", "オファーコードを持っている",
              '<p><span class="tag-new">1.3.3</span> [[FULL VERSION]]画面で、[[RESTORE PURCHASES]]の横の[[REDEEM CODE]]をタップします。Appleのオファーコード入力画面が開き、フルバージョンのコードは購入と同じようにゲームを解放します。</p>'),
             ("free", "無料部分はどうなっている？",
-             "<p>Steel Crusadeの最初の8ミッションは無料です。本物のボス戦を含む完全なミッションで、最初のレベル報酬ももらえます。1回の購入でフルバージョンが解放されます：無料ミッションの先のSteel Crusade、最初のミッションからのIron LabyrinthとINFERNO、Endless Onslaught、難易度Hard、そしてSlow・Fast・Turboのゲーム速度。広告なし、サブスクなし。</p>"
+             "<p>Steel Crusadeの序盤ミッションは無料です。本物のボス戦を含む完全なミッションで、最初のレベル報酬ももらえます。1回の購入でフルバージョンが解放されます：無料ミッションの先のSteel Crusade、最初のミッションからのIron LabyrinthとINFERNO、Endless Onslaught、難易度Hard、そしてSlow・Fast・Turboのゲーム速度。広告なし、サブスクなし。</p>"
              '<p>[[PLAY TOGETHER]]では、友だちはいつでも無料で参加できます。<span class="tag-new">1.3.3</span> フルバージョンがなくても、5ウェーブの体験をホストできます。</p>'),
             ("refund", "返金してほしい",
              '<p>購入はAppleが処理しているため、返金もAppleへの申請になります：<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>。たいてい1〜2日で返事があります。</p>'),
